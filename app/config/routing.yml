@@ -1,3 +1,8 @@
+data_sampler:
+    resource: "@DataSamplerBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
